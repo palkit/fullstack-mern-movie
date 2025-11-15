@@ -1,7 +1,8 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "https://orbit-hub.vercel.app/api/v1/";
+const baseURL = process.env.REACT_APP_BASE_URL;
+
 
 
 
